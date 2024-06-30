@@ -1,0 +1,50 @@
+* {
+  /* outline: 5px solid #ff0000; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.container-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid white;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.pixel {
+  background-color: white;
+  min-height: 5px;
+  min-width: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+button {
+  border-radius: 5px;
+  border: 3px solid white;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
